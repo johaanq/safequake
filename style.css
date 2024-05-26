@@ -1,8 +1,8 @@
 .lexend-light {
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
 body {
@@ -16,9 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 1px 5px 5px -1px rgba(25,32,76,0.75);
-    -webkit-box-shadow: 1px 5px 5px -1px rgba(25,32,76,0.75);
-    -moz-box-shadow: 1px 5px 5px -1px rgba(25,32,76,0.75);
+    box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
+    -webkit-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
+    -moz-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
 }
 
 .navbar-left a {
@@ -37,8 +37,8 @@ body {
     font-family: Lexend;
 }
 
-.navbar-left > *,
-.navbar-right > * {
+.navbar-left>*,
+.navbar-right>* {
     margin: 10px;
 }
 
@@ -164,55 +164,70 @@ body {
 
 .footer {
     margin-top: 20px;
-    background-color: #192024; /* Color de fondo del pie de página */
-    padding: 40px; /* Espacio interno */
-    height: 400px; /* Altura del pie de página */
+    background-color: #192024;
+    /* Color de fondo del pie de página */
+    padding: 40px;
+    /* Espacio interno */
+    height: 400px;
+    /* Altura del pie de página */
     display: flex;
-    justify-content: space-around; /* Distribuir las secciones horizontalmente */
-    align-items: center; /* Centrar verticalmente las secciones */
+    justify-content: space-around;
+    /* Distribuir las secciones horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente las secciones */
 }
-  
+
 .contacto,
 .redes-sociales,
 .imagenes {
     padding-left: 200px;
     color: white;
-    width: 30%; /* Ancho de cada sección */ /* Centrar el texto */
+    width: 30%;
+    /* Ancho de cada sección */
+    /* Centrar el texto */
 }
-  
+
 .contacto h4,
 .redes-sociales h4,
 .imagenes h4 {
-    margin-bottom: 50px; /* Espacio entre el título y el contenido */
+    margin-bottom: 50px;
+    /* Espacio entre el título y el contenido */
 }
 
 .social-link {
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
-    color: white; /* Color del texto del enlace */
+    color: white;
+    /* Color del texto del enlace */
 }
 
 .contacto-icon {
-    width: 20px; /* Ajusta el tamaño del icono según sea necesario */
+    width: 20px;
+    /* Ajusta el tamaño del icono según sea necesario */
     height: auto;
-    margin-right: 5px; /* Espacio entre el icono y el texto */
+    margin-right: 5px;
+    /* Espacio entre el icono y el texto */
 }
-  
+
 .social-icon {
-    width: 20px; /* Ajusta el tamaño del icono según sea necesario */
+    width: 20px;
+    /* Ajusta el tamaño del icono según sea necesario */
     height: auto;
-    margin-right: 5px; /* Espacio entre el icono y el texto */
+    margin-right: 5px;
+    /* Espacio entre el icono y el texto */
 }
 
 .app-icon {
-    display: block; /* Convertir las imágenes en bloques para que estén uno debajo del otro */
-    margin-bottom: 10px; /* Espacio entre las imágenes */
+    display: block;
+    /* Convertir las imágenes en bloques para que estén uno debajo del otro */
+    margin-bottom: 10px;
+    /* Espacio entre las imágenes */
 }
 
 .app-icon-upc {
     width: 30%;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -260,26 +275,26 @@ body {
 }
 
 .aceldat-text {
-  flex: 1;
-  background-color: #2596be;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
+    flex: 1;
+    background-color: #2596be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .aceldat-img {
-  flex: 1;
-  position: relative;
+    flex: 1;
+    position: relative;
 }
 
 .rectangulo-aceldat {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .rectangulo-aceldat h4 {
@@ -292,7 +307,7 @@ body {
     text-align: center;
 }
 
-.suscribirse{
+.suscribirse {
     font-weight: 600;
     background-color: #2596be;
     color: white;
@@ -318,9 +333,11 @@ body {
 }
 
 .boligrafo-icon {
-    width: 20px; /* Ajusta el tamaño del icono según sea necesario */
+    width: 20px;
+    /* Ajusta el tamaño del icono según sea necesario */
     height: auto;
-    margin-right: 10px; /* Espacio entre el icono y el texto */
+    margin-right: 10px;
+    /* Espacio entre el icono y el texto */
     margin-left: 80px;
 }
 
@@ -343,7 +360,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     padding: 0;
 }
@@ -369,60 +386,76 @@ body {
 
 .posts-redsafequake {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
 }
 
 .crear-post-button {
-    text-align: center; /* Centrar el botón dentro del div */
+    text-align: center;
+    /* Centrar el botón dentro del div */
     margin-bottom: 20px;
 }
 
 .crear-post-button,
 .post {
-    width: 50%; /* Cada div ocupa la mitad de la pantalla */
+    width: 50%;
+    /* Cada div ocupa la mitad de la pantalla */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar elementos horizontalmente */
+    align-items: center;
+    /* Centrar elementos horizontalmente */
 }
 
 .post {
-    width: 50%; /* Cada div ocupa la mitad de la pantalla */
+    width: 50%;
+    /* Cada div ocupa la mitad de la pantalla */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar elementos horizontalmente */
-    margin-top: -20px; /* Mover el rectángulo del post hacia arriba */
+    align-items: center;
+    /* Centrar elementos horizontalmente */
+    margin-top: -20px;
+    /* Mover el rectángulo del post hacia arriba */
 }
 
 .rectangulo-post {
     width: 700px;
     border-radius: 5%;
-    background-color: lightgray; /* Color de fondo gris claro */
+    background-color: lightgray;
+    /* Color de fondo gris claro */
     position: relative;
 }
 
 .perfil-info {
     display: flex;
-    align-items: center; /* Centrar elementos verticalmente */
-    padding: 10px; /* Ajustar el espacio alrededor */
+    align-items: center;
+    /* Centrar elementos verticalmente */
+    padding: 10px;
+    /* Ajustar el espacio alrededor */
 }
 
 .perfil-info img {
-    width: 50px; /* Tamaño de la imagen de perfil */
+    width: 50px;
+    /* Tamaño de la imagen de perfil */
     height: 50px;
-    border-radius: 50%; /* Para que sea redonda */
-    margin-right: 10px; /* Espacio entre la imagen de perfil y el nombre */
+    border-radius: 50%;
+    /* Para que sea redonda */
+    margin-right: 10px;
+    /* Espacio entre la imagen de perfil y el nombre */
 }
 
 .opciones-post {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px; /* Ajustar el espacio alrededor */
+    padding: 10px;
+    /* Ajustar el espacio alrededor */
 }
 
 .texto-post {
-    padding: 10px; /* Ajustar el espacio alrededor */
+    padding: 10px;
+    /* Ajustar el espacio alrededor */
 }
 
 .crear-post {
@@ -449,24 +482,33 @@ body {
     flex-direction: column;
     width: 100%;
 }
+
 .rectangulo {
     display: flex;
     flex-direction: row;
     padding: 10px;
     margin: 5px 0;
 }
+
 .header {
-    background-color: #112852; /* Color diferenciado para el encabezado */
-    color: white; /* Color del texto del encabezado */
+    background-color: #112852;
+    /* Color diferenciado para el encabezado */
+    color: white;
+    /* Color del texto del encabezado */
 }
+
 .content {
-    background-color: #f2f2f2; /* Color para las filas de contenido */
+    background-color: #f2f2f2;
+    /* Color para las filas de contenido */
     color: black
 }
+
 .rectangulo p {
     margin: 0 10px;
-    flex: 1; /* Para que los elementos se distribuyan equitativamente */
+    flex: 1;
+    /* Para que los elementos se distribuyan equitativamente */
 }
+
 .cell {
     flex: 1;
     display: flex;
@@ -479,84 +521,84 @@ body {
 
 .ultimo-sismo,
 .sismo-info {
-  padding: 1rem 2rem;
+    padding: 1rem 2rem;
 }
 
 .ultimo-sismo h1,
 .ultimo-sismo p {
-  font-family: Lexend;
+    font-family: Lexend;
 }
 
 .ultimo-sismo p {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .alerta-rango {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .alerta-rango p {
-  margin: 0;
-  font-weight: 600;
-  padding-right: 10px;
+    margin: 0;
+    font-weight: 600;
+    padding-right: 10px;
 }
 
 .sismo-info .info-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
 }
 
 .sismo-info .magnitude {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .sismo-info .reference p {
-  margin: 0;
+    margin: 0;
 }
 
 .sismo-info .map {
-  padding: 1rem 0;
-  text-align: center;
+    padding: 1rem 0;
+    text-align: center;
 }
 
 .sismo-info .map img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 .sismo-info .sismo-details {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 .sismo-info .sismo-details p {
-  margin: 0;
-  padding: 0.5rem 0;
+    margin: 0;
+    padding: 0.5rem 0;
 }
 
 .sismo-info .buttons {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
 }
 
 .sismo-info .buttons .btn {
-  flex: 1;
-  margin: 0 0.5rem;
+    flex: 1;
+    margin: 0 0.5rem;
 }
 
 .sismo-info .consideraciones {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 .sismo-info .consideraciones h4 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .sismo-info .consideraciones .consideracion {
-  padding: 0.5rem 0;
+    padding: 0.5rem 0;
 }
