@@ -437,3 +437,33 @@ body {
     background-color: #19204c;
     color: #fafafa
 }
+
+.datos-sismicos {
+    margin-top: 30px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.rectangulo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px 0;
+}
+.header {
+    background-color: #112852; /* Color diferenciado para el encabezado */
+    color: white; /* Color del texto del encabezado */
+}
+.content {
+    background-color: #f2f2f2; /* Color para las filas de contenido */
+    color: black
+}
+.rectangulo p {
+    margin: 0 10px;
+    flex: 1; /* Para que los elementos se distribuyan equitativamente */
+}
