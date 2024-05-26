@@ -67,7 +67,7 @@
         especializado para abordar los desafíos de seguridad sísmica en todo el mundo. Únete a nosotros en nuestro viaje
         para construir un futuro más seguro y resiliente para todos.</p>
     </div>
-    <button class="saber-mas">Saber más</button>
+    <button class="saber-mas" onclick="scrollToSection('#seccion1')">Saber más</button>
     <div class="rectangulos-container">
       <div class="rectangulo rectangulo-izquierdo">
         <div class="numero">58</div>
@@ -79,6 +79,19 @@
       </div>
     </div>
   </div>
+
+  <div class="nosotros" id="seccion1">
+    <h4>N O S O T R O S</h4>
+    <p>Ofrecemos los datos en tiempo real de las estaciones de monitoreo sísmico para detectar 
+      actividad sísmica y enviar alertas a los usuarios en las áreas afectadas. A través de una 
+      interfaz de usuario optimizada y un diseño intuitivo.
+    </p>
+    <p>Priorizamos la entrega de información oportuna y procesable a los usuarios, 
+      como la ubicación y magnitud del terremoto, las medidas de seguridad recomendadas y las rutas 
+      de evacuación.</p>
+
+  </div>
+
   <footer class="footer">
     <div class="contacto">
       <h4>CONTÁCTENOS</h4>
@@ -109,6 +122,12 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+
+    <script>
+      function scrollToSection(sectionId) {
+        document.querySelector(sectionId).scrollIntoView({ behavior: 'smooth' });
+      }
+    </script>
 </body>
 
 </html>
