@@ -467,3 +467,96 @@ body {
     margin: 0 10px;
     flex: 1; /* Para que los elementos se distribuyan equitativamente */
 }
+.cell {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cell p {
+    margin: 5px 0;
+}
+
+.ultimo-sismo,
+.sismo-info {
+  padding: 1rem 2rem;
+}
+
+.ultimo-sismo h1,
+.ultimo-sismo p {
+  font-family: Lexend;
+}
+
+.ultimo-sismo p {
+  font-weight: 600;
+}
+
+.alerta-rango {
+  display: flex;
+  align-items: center;
+}
+
+.alerta-rango p {
+  margin: 0;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.sismo-info .info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.sismo-info .magnitude {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sismo-info .reference p {
+  margin: 0;
+}
+
+.sismo-info .map {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.sismo-info .map img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.sismo-info .sismo-details {
+  padding: 1rem 0;
+}
+
+.sismo-info .sismo-details p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.sismo-info .buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.sismo-info .buttons .btn {
+  flex: 1;
+  margin: 0 0.5rem;
+}
+
+.sismo-info .consideraciones {
+  padding: 1rem 0;
+}
+
+.sismo-info .consideraciones h4 {
+  margin-bottom: 1rem;
+}
+
+.sismo-info .consideraciones .consideracion {
+  padding: 0.5rem 0;
+}
