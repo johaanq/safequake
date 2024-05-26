@@ -125,6 +125,7 @@ body {
 
 .saber-mas:hover {
     background-color: #0e1538;
+    color: white;
 }
 
 .rectangulos-container {
@@ -503,7 +504,7 @@ body {
     color: black
 }
 
-.rectangulo p {
+.rectangulo-datos p {
     margin: 0 10px;
     flex: 1;
     /* Para que los elementos se distribuyan equitativamente */
