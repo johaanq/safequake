@@ -483,7 +483,7 @@ body {
     width: 100%;
 }
 
-.rectangulo {
+.rectangulo-datos {
     display: flex;
     flex-direction: row;
     padding: 10px;
