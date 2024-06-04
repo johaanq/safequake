@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SafeQuake</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/icon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar-left">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/safequeake-logo.png" alt="Logo" width="60" height="auto"
+          class="d-inline-block align-text-center">
+      </a>
+      <a class="nav-link" href="./ultimoSismo.html">ULTIMO SISMO</a>
+      <a class="nav-link" href="./redSafeQuake.html">REDSAFEQUAKE</a>
+      <a class="nav-link" href="./baseDatos.html">BASE DE DATOS</a>
+      <a class="nav-link" href="./aceldat-peru.html">ACELDAT-PERÚ</a>
+    </div>
+    <div class="navbar-right">
+      <div class="sign-in">Sign in</div>
+      <div class="join-now">Join now</div>
+    </div>
+  </header>
+
+  <div class="datos-sismicos">
+    <h1>DATOS SISMICOS</h1>
+
+    <p>La importancia de tener una base de datos sísmica coherente se subraya en la necesidad
+      de utilizarla para cualquier investigación en sismología. Por lo tanto, esta base debe
+      incluir todos los aspectos que caracterizan un sismo, calculados bajo las mismas condiciones
+      para garantizar su uniformidad. En este sentido, la base de datos sísmicos de Perú se divide
+      en dos partes: Sismos Históricos, que abarca eventos desde 1471 hasta 1959, y Sismos Instrumentales,
+      que cubre los ocurridos después de 1960.</p>
+
+    <h4>SISMICIDAD HISTÓRICA</h4>
+
+    <p>El Instituto Geofísico del Perú (IGP) y el Centro Regional de Sismología para América del Sur (CERESIS)
+      han destacado la necesidad de una base de datos sísmicos uniforme, ya que existen hasta tres catálogos
+      distintos para el mismo período de tiempo, con parámetros y cantidad de sismos diferentes. Como parte de
+      sus objetivos para el año 2000, el IGP se propuso revisar y actualizar el Catálogo Sísmico del Perú de 1471 a
+      1982,
+      lo que culminó en la publicación del documento "Catálogo Sísmico del Perú 1471-1982 Versión Revisada y
+      Actualizada".</p>
+
+    <p>La información sísmica presente en este documento está disponible para su acceso público y se basa en una
+      variedad
+      de fuentes, incluidas bases de datos sísmicas e intensidades, así como datos recopilados de varias publicaciones
+      sobre
+      sismos en Perú. Esta recopilación de información ha permitido la inclusión de nuevos valores de magnitud (Mw) para
+      algunos
+      sismos, así como la corrección de la profundidad de otros eventos.</p>
+
+    <h4>SISMICIDAD INSTRUMENTAL</h4>
+
+    <p>Para esta base de datos, se han incluido los datos recopilados por las estaciones que forman parte de la Red
+      Sísmica Nacional (RSN),
+      administrada por el IGP. Esta red ha experimentado un crecimiento anual tanto en número como en cobertura a nivel
+      nacional,
+      lo que significa que se dispone de una cantidad mayor de datos sísmicos para el período posterior al año 2000.
+      Además,
+      para completar la base de datos hasta el año 1985, se han utilizado los datos publicados por la U.S. Geological
+      Survey,
+      y para el período hasta el año 2000, se ha empleado información proporcionada por Engdahl et al. (1998, 2000).</p>
+
+    <p>Una vez recopilados los datos, se estableció un umbral de magnitud para garantizar la uniformidad de la base de
+      datos.
+      Siguiendo este mismo criterio, se convirtieron los valores de magnitud a magnitud momento (Mw) utilizando las
+      relaciones
+      propuestas por Scordilis (2006) y Kadirioglu et al. (2015).</p>
+    <div class="tabla">
+      <div class="rectangulo-datos header">
+        <p>Magnitud Momento (Mw)</p>
+        <p>Relación</p>
+        <p>Umbrales de magnitud</p>
+      </div>
+      <div class="rectangulo-datos content">
+        <p>Mw</p>
+        <div class="cell">
+          <p>Mw = 0.6143Ml+2.6789</p>
+          <p>Ms = 1.278mb−4.567</p>
+        </div>
+        <div class="cell">
+          <p>3.1 ≤Ml≤ 6.8</p>
+          <p>mb ≤ 5.7</p>
+        </div>
+      </div>
+      <div class="rectangulo-datos content">
+        <p>Ms</p>
+        <div class="cell">
+          <p>Ms = 2.235mb−9.842</p>
+          <p>Mw = 0.758Ms+1.895</p>
+        </div>
+        <div class="cell">
+          <p>mb > 5.7</p>
+          <p>3.2 &lt; Ms &lt; 6.4</p>
+        </div>
+      </div>
+      <div class="rectangulo-datos content">
+        <p>Mw</p>
+        <p>Mw = 1.103Ms−0.043</p>
+        <p>6.5 &lt; Ms &lt; 8.5</p>
+      </div>
+    </div>
+    <p>A partir del año 2000, ha habido un aumento significativo en el número de estaciones sísmicas que forman p
+      arte de la Red Sísmica Nacional, administrada por el IGP. Este incremento ha resultado en una mejora notable
+      en la calidad de los datos y la información proporcionada para cada sismo registrado por el Centro Sismológico
+      Nacional.</p>
+  </div>
+
+  <footer class="footer">
+    <div class="contacto">
+      <h4>CONTÁCTENOS</h4>
+
+      <p>Lunes a viernes de 9:00 a 17:00</p>
+      <p><img src="../img/telefono-icon.png" alt="Facebook" class="contacto-icon"> (01) 512 7623</p>
+      <p><img src="../img/email-icon.png" alt="Facebook" class="contacto-icon"> contacto@autoabode.com</p>
+    </div>
+    <div class="redes-sociales">
+      <h4>SOCIAL</h4>
+      <p>
+        <a href="#" class="social-link"><img src="../img/instagram-logo.png" alt="Facebook" class="social-icon">
+          Instagram</a>
+        <a href="#" class="social-link"><img src="../img/facebook-logo.png" alt="Twitter" class="social-icon">
+          Facebook</a>
+        <a href="#" class="social-link"><img src="../img/twitter-logo.png" alt="YouTube" class="social-icon">
+          Twitter</a>
+        <a href="#" class="social-link"><img src="../img/youtube-logo.png" alt="Instagram" class="social-icon">
+          YouTube</a>
+      </p>
+    </div>
+    <div class="imagenes">
+      <img src="../img/appstore.webp" alt="appstore" class="app-icon">
+      <img src="../img/playstore.webp" alt="playstore" class="app-icon">
+      <img src="../img/upc-logo.png" alt="playstore" class="app-icon-upc">
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
