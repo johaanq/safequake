@@ -260,7 +260,6 @@ body {
 .footer {
     background-color: #192024;
     padding: 40px;
-    height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -269,9 +268,8 @@ body {
 .contacto,
 .redes-sociales,
 .imagenes {
-    padding-left: 200px;
+    padding: 3rem 3rem;
     color: white;
-    width: 30%;
 }
 
 .contacto h4,
@@ -314,11 +312,6 @@ body {
     margin-left: 20%;
     margin-right: 20%;
 }
-
-
-
-
-
 
 .posts-redsafequake {
     margin-bottom: 20px;
