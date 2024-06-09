@@ -10,22 +10,22 @@ Safequake es una aplicación diseñada para mejorar la seguridad en caso de terr
 - **Recursos de emergencia:** Información sobre puntos de reunión, hospitales y contactos de emergencia.
 
 ## Herramientas Utilizadas
-- **Project Management:
+- **Project Management:**
 Herramienta: Github
 Descripción: Herramienta de gestión de proyectos ágil que permite planificar, rastrear y gestionar tareas.
 Ruta de acceso: https://github.com/ 
 
-- **Requirements Management:
+- **Requirements Management:**
 Herramienta: Google Drive
 Descripción: Plataforma para la creación y gestión de documentación.
 Ruta de acceso: https://drive.google.com/ 
 
-- **Product UX/UI Design:
+- **Product UX/UI Design:**
 Herramienta: Figma
 Descripción: Herramienta de diseño de interfaz de usuario y experiencia de usuario que permite la colaboración en tiempo real.
 Ruta de acceso: https://www.figma.com/ 
 
-- **Software Development:
+- **Software Development:**
 Herramienta: Visual Studio Code
 Descripción: Editor de código fuente con soporte para múltiples lenguajes y extensiones.
 Ruta de descarga: https://code.visualstudio.com/ 
