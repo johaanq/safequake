@@ -46,6 +46,9 @@ Safequake es una aplicación diseñada para mejorar la seguridad en caso de terr
 
 Para cualquier consulta o sugerencia, puedes contactar con los autores:
 
+- **Johan Jorge Quiñones Tintaya**
+  - **Correo Electrónico:** U202218183@upc.edu.pe
+
 - **Sebastian Gabriel Zuñiga Calle**
   - **Correo Electrónico:** U20221b479@upc.edu.pe
 
@@ -57,9 +60,6 @@ Para cualquier consulta o sugerencia, puedes contactar con los autores:
 
 - **Renato Guillermo Calvo Yalan**
   - **Correo Electrónico:** U202217053@upc.edu.pe
-
-- **Johan Jorge Quiñones Tintaya**
-  - **Correo Electrónico:** U202218183@upc.edu.pe
 
 - **Mauricio Daniel Cortez Alvarez**
   - **Correo Electrónico:** U201617471@upc.edu.pe
