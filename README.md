@@ -11,9 +11,9 @@ Safequake es una aplicación diseñada para mejorar la seguridad en caso de terr
 
 ## Herramientas Utilizadas
 - **Project Management:**
-Herramienta: Github
-Descripción: Herramienta de gestión de proyectos ágil que permite planificar, rastrear y gestionar tareas.
-Ruta de acceso: https://github.com/ 
+    Herramienta: Github
+    Descripción: Herramienta de gestión de proyectos ágil que permite planificar, rastrear y gestionar tareas.
+    Ruta de acceso: https://github.com/ 
 
 - **Requirements Management:**
 Herramienta: Google Drive
