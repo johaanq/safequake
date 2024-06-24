@@ -544,8 +544,7 @@ body {
     margin: 5px 0;
 }
 
-.ultimo-sismo,
-.sismo-info {
+.ultimo-sismo  {
     padding: 1rem 2rem;
     margin-top: 20px;
     margin-left: 15%;
@@ -553,11 +552,21 @@ body {
 }
 
 .sismo-info {
+    padding: 3rem 2rem;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
     border: 3px solid rgb(255, 193, 7);
 }
 
 .rectangulo-reference {
     margin-left: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
 }
 
 .bg-primary,
@@ -566,6 +575,11 @@ body {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    margin-right: 20px;
+}
+
+.btn-secondary,
+.btn-primary {
     margin-right: 20px;
 }
 
@@ -592,8 +606,12 @@ body {
 .info-header {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem 0;
+}
+
+.reference {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
 }
 
 .magnitude {
@@ -604,6 +622,7 @@ body {
     padding: 40px 25px;
     border: 1px solid white;
     border-radius: 100%;
+    margin-bottom: 50px;
 }
 
 .consideraciones {
@@ -612,20 +631,20 @@ body {
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 20%;
-  }
+}
   
-  .titulo,
-  .contenido {
+.titulo,
+.contenido {
     flex: 1;
-  }
+}
   
-  .contenido {
+.contenido {
     margin-left: 20px; 
-  }
+}
   
-  .consideracion {
+.consideracion {
     margin-bottom: 4%;
     background-color: #2595bed3;
     padding: 2%;
     border-radius: 10px;
-  }
+}
