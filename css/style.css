@@ -335,11 +335,14 @@ body {
 }
 
 .aceldat-img {
-    flex: 1;
-    position: relative;
+    width: 50%; /* Hace que la imagen ocupe la mitad del ancho de su contenedor padre */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio disponible sin perder su relación de aspecto */
 }
 
 .rectangulo-aceldat {
+    width: 100%;
+    height: auto;
     position: relative;
     z-index: 1;
 }
