@@ -11,14 +11,11 @@ body {
 }
 
 .navbar {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
-    -webkit-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
-    -moz-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
 }
 
 .navbar-left a {
@@ -335,9 +332,9 @@ body {
 }
 
 .aceldat-img {
-    width: 50%; /* Hace que la imagen ocupe la mitad del ancho de su contenedor padre */
-    height: auto; /* Mantiene la relación de aspecto de la imagen */
-    object-fit: cover; /* Asegura que la imagen cubra el espacio disponible sin perder su relación de aspecto */
+    width: 50%; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 .rectangulo-aceldat {
